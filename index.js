@@ -2,7 +2,7 @@ var readlineSync = require("readline-sync");
 
 var userName = readlineSync.question("What's your name ? ");
 
-console.log("Welcome " + userName +" to GK QUIZ?\n");
+console.log("Welcome " + userName +" to HTML/CSS QUIZ?\n");
 
 var score = 0
 
@@ -41,7 +41,15 @@ var questionBank = [{
 },
 {
   question : "3. HTML web pages can be read and rendered by _________.\n\nA.Compiler B.Server\nC.Web Browser D.Interpreter  : ",
-  answer : "A"
+  answer : "C"
+},
+{
+  question : "4. Which of the following element is responsible for making the text bold in HTML?.\n\nA.<pre> B.<a>\nC.<b> D.<br>  : ",
+  answer : "C"
+},
+{
+  question : "5. Which of the following tag is used to insert a line-break in HTML?.\n\nA.<ul> B.<ol>\nC.<br> D.<b>  : ",
+  answer : "C"
 }
 ]
 
